@@ -1,0 +1,149 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "./theme/tokens.css" layer(theme);
+
+@theme {
+  --color-lingua-purple: #6C4EF5;
+  --color-lingua-deep-purple: #5B3BF6;
+  --color-lingua-blue: #4D8BFF;
+  --color-lingua-green: #21C16B;
+
+  --color-brand: #6C4EF5;
+  --color-brand-deep: #5B3BF6;
+  --color-brand-blue: #4D8BFF;
+  --color-brand-green: #21C16B;
+
+  --color-success: #21C16B;
+  --color-warning: #FFC800;
+  --color-streak: #FF8A00;
+  --color-error: #FF4D4F;
+  --color-info: #4D8BFF;
+
+  --color-text-primary: #0D132B;
+  --color-text-secondary: #6B7280;
+  --color-border: #E5E7EB;
+  --color-surface: #F6F7FB;
+  --color-background: #FFFFFF;
+}
+
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css";
+
+@import "nativewind/theme";
+
+.ds-screen {
+  flex: 1;
+  background-color: #FFFFFF;
+}
+
+.ds-card {
+  background-color: #FFFFFF;
+  border-color: #E5E7EB;
+  border-radius: 16px;
+  border-width: 1px;
+}
+
+.ds-card__soft {
+  background-color: #F6F7FB;
+  border-color: #E5E7EB;
+  border-radius: 16px;
+  border-width: 1px;
+}
+
+.ds-swatch {
+  border-radius: 10px;
+  height: 82px;
+  width: 82px;
+}
+
+.ds-button__primary {
+  align-items: center;
+  background-color: #6C4EF5;
+  border-radius: 16px;
+  justify-content: center;
+  min-height: 56px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ds-button__secondary {
+  align-items: center;
+  background-color: #F6F7FB;
+  border-color: #E5E7EB;
+  border-radius: 16px;
+  border-width: 1px;
+  justify-content: center;
+  min-height: 56px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.ds-type__h1 {
+  font-family: "Poppins-Bold";
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+.ds-type__h2 {
+  color: #0D132B;
+  font-family: "Poppins-SemiBold";
+  font-size: 24px;
+  line-height: 31.2px;
+}
+
+.ds-type__h3 {
+  color: #0D132B;
+  font-family: "Poppins-SemiBold";
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.ds-type__h4 {
+  color: #0D132B;
+  font-family: "Poppins-Medium";
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.ds-type__body-lg {
+  color: #0D132B;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.ds-type__body-md {
+  color: #0D132B;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.ds-type__body-sm {
+  color: #6B7280;
+  font-family: "Poppins-Regular";
+  font-size: 13px;
+  line-height: 20.8px;
+}
+
+.ds-type__caption {
+  color: #6B7280;
+  font-family: "Poppins-Regular";
+  font-size: 11px;
+  line-height: 15.4px;
+}
+
+.font-poppins__regular {
+  font-family: "Poppins-Regular";
+}
+
+.font-poppins__medium {
+  font-family: "Poppins-Medium";
+}
+
+.font-poppins__semibold {
+  font-family: "Poppins-SemiBold";
+}
+
+.font-poppins__bold {
+  font-family: "Poppins-Bold";
+}
